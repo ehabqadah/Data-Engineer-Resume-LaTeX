@@ -221,7 +221,7 @@
               \begin{array}{l}
               \hspace{3mm} \huge \textnormal{\textcolor{linkedin}{\faLinkedin}}
               \end{array}
-              $} & \href{https://www.linkedin.com\cvlinkedin}{\cvlinkedin} \\
+              $} & \href{https://www.linkedin.com/in\cvlinkedin}{\cvlinkedin} \\
             }  
         \ifthenelse{\equal{\cvgithub}{}}{}{
             {$
@@ -242,25 +242,25 @@
     \end{tabular}
 
     %------------------------------------------------
-    \vspace{20mm}
-    \profilesection{Skills}{4cm}
+    \vspace{135mm}
+   % \profilesection{Skills}{4cm}
     
-    {\large \textbf{Overview}}
+   % {\large \textbf{~~~~~~~~~~~~~~~~Skills Overview}}
 
 	\skills
         
         %------------------------------------------------
         
-        \vspace{20mm}
-       
-	 {\large \textbf{Programming}} 
-
-		 \programming
-         
-        \vspace{7mm}
-        %\profilesection{Projects}{3cm} 
-        
-        \projects
+%        \vspace{20mm}
+%       
+%	 {\large \textbf{Programming}} 
+%
+%		 \programming
+%         
+%        \vspace{7mm}
+%        %\profilesection{Projects}{3cm} 
+%        
+%        \projects
       
   \end{textblock}
 }
@@ -376,7 +376,7 @@
     % set center bubble color
     bubble center node color = pblue,
     % define the list of colors usable in the diagram
-    set color list = {lightgray, materialcyan, orange, green, materialorange, materialteal, materialamber, materialindigo, materialgreen, materiallime},
+    set color list = {pblue, pblue, pblue, pblue, pblue, pblue, pblue, pblue, pblue, pblue},
     % sets the opacity at which the bubbles are shown
     bubble fill opacity = 0.6,
     % sets the opacity at which the bubble text is shown
