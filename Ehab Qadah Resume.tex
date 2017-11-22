@@ -1,0 +1,215 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+% Command for printing skill overview bubbles
+\newcommand\skills{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{Software}\\\textbf{Development},
+        \textbf{Full Stack}\\\textbf{Web Dev},
+        \textbf{~~~~~OOP~~~~~~},
+        \textbf{Mobile}\\\textbf{Dev},
+        \textbf{Machine}\\\textbf{Learning},
+        \textbf{~~Big Data~},
+         \textbf{Research}\\\textbf{Engineering}
+    }
+}
+
+% Programming skill bars
+\programming{ {Scala  $\textbullet$ Python  $\textbullet$ C\# / 3.2}, {
+		C $\textbullet$ C++  $\textbullet$ PHP  / 4.2}, {Java $\textbullet$ JS /5.2 }}
+
+% Projects text
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\cvname{Ehab Qadah} % Your name
+\cvjobtitle{ Software  Engineer } % Job
+% title/career
+
+\cvlinkedin{/in/ehabqadah/}
+\cvgithub{ehabqadah}
+\cvnumberphone{49 1729151241} % Phone number
+\cvsite{ehabqadah.com} % Personal website
+\cvmail{ehabqadah@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+    	{2015 - now}
+        {}
+        {M.Sc.  in  Computer Science}
+        {\href{https://www.uni-bonn.de/}{University of Bonn, Germany}}
+        {}
+        {}
+	\twentyitem
+    	{2009 - 2013}
+		{}
+        {B.Sc. in Computer Systems Engineering }
+        {\href{https://www.birzeit.edu/en}{Birzeit University, Palestine}}
+        {}
+        {}
+	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
+\end{twenty}
+
+%\section{Publications}
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	
+	\twentyitem
+	{May 2017 -}
+	{Present}
+	{Reseach Assistant}
+	{\href{https://www.iais.fraunhofer.de/?L=1}{Fraunhofer IAIS}}
+	{}
+	{\begin{itemize}
+			\item Involved in building a realtime data ingestion pipelines on a Kafka cluster using Flink in the context of the \href{http://www.datacron-project.eu/}{datAcron} project.
+			
+			\item Working on my master thesis: Distributed Online Learning for Large-scale Pattern Prediction over Real-time Event Streams.
+	\end{itemize}}
+\\
+		\twentyitem
+	{2016 - 2017}
+	{}
+	{Teaching Assistant}
+	{\href{https://www.kdml.iai.uni-bonn.de/teaching/winter-2016-17}{University of Bonn}}
+	{}
+	 {\begin{itemize}
+			\item Teaching and correcting exercises and exams for the Intelligent Learning ​ And Analysis Systems: Machine Learning course  MA-INF 4111, winter semester 2016/17.
+	\end{itemize}}
+
+
+        \\
+	\twentyitem
+    	{March 2016 -}
+		{March 2017}
+        {Front-End Developer (part-time)}
+        {\href{https://twitter.com/TROIUS_DIGITAL}{TROIUS DIGITAL}}
+        {}
+        {
+        {\begin{itemize}
+        \item Design and develop web applications (front-end) using HTML,CSS, Javascript, JQuery, React.
+        \item Build and maintain web services using Node.js, PHP.
+    \end{itemize}}
+        }
+    \\   
+    \twentyitem
+   		{Sep 2015 -}
+		{Dec 2016}
+        {R\&D Engineer}
+        {\href{https://www.freightos.com/}{Freightos (Tradeos LTD )}}
+        {}
+        {
+        {\begin{itemize}
+        \item Developing software components based on  GWT and Google AppEngine to provide Java web and back-end solutions.
+        \item Experience in using Google's DataStore, Memcache, CloudSQL and BigQuery API.
+        \item Participating in code reviews, team design sessions and contributes to the team’s strategy and process improvements.
+        
+        
+    \end{itemize}}
+        }
+     \\
+     \twentyitem
+   		{Aug 2012 -}
+		{Sep 2014}
+        {Software Engineer}
+        {\href{http://www.exalt-tech.com/about/}{EXALT Technologies Ltd}}
+        {}
+        {
+        \begin{itemize}
+        \item Web and desktop applications development using ASP.NET C\#.
+        \item Design and develop Android applications. 
+        \item Participating in full development lifecycle from concept to deployment.
+        
+    \end{itemize}
+    	}
+        
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+\section{Technical  Skills}
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+	{}
+	{}
+	{Programming Languages}
+	{}
+	{}
+	{ \begin{itemize}
+			\item Java, C/C++, C\# and  Python.	\\	
+	\end{itemize}}
+		\twentyitem
+	{}
+	{}
+	{Big Data Technologies}
+	{}
+	{}
+	{ \begin{itemize}
+			\item Apache Flink,  Apache
+			Spark and Apach Kafka.	\\	
+	\end{itemize}}
+
+		\twentyitem
+{}
+{}
+{Scripting languages}
+{}
+{}
+{ \begin{itemize}
+		\item Shell Scripts, VHDL, VBScript and Assembly.	\\	
+\end{itemize}}
+
+
+
+	\twentyitem
+{}
+{}
+{Frameworks \& Tools}
+{}
+{}
+{ \begin{itemize}
+		\item Databases: MySQL,    MongoDB and SQLlite.
+		\item Git, SVN, Maven and Docker.
+		\item Semantic Web.
+		
+\end{itemize}}
+\end{twenty}
+\end{document} 
