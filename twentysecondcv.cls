@@ -155,7 +155,7 @@
 \newcommand\programming[1]{ 
 	\renewcommand{\programming}{
 		\begin{tikzpicture}
-        	\node [above right] at (0, 4) {$0 \: LOC \: \arrow{3.2} \: 5000 \: LOC$};
+%        	\node [above right] at (0, 4) {$0 \: LOC \: \arrow{3.2} \: 5000 \: LOC$};
 			\foreach [count=\i] \x/\y in {#1}{
 				\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
 				\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
@@ -207,13 +207,7 @@
               $} 
             & \cvnumberphone\\}
             
-      \ifthenelse{\equal{\cvsite}{}}{}{
-            {$
-              \begin{array}{l}
-              \hspace{2.8mm} \huge \textnormal{\textcolor{test}{\faGlobe}}
-              \end{array}
-              $} 
-            & \href{http://\cvsite}{\cvsite} \\}
+    
       \ifthenelse{\equal{\cvmail}{}}{}{
             {$
               \begin{array}{l}
@@ -235,12 +229,20 @@
               \hspace{3mm} \huge \textnormal{\faGithub}
               \end{array}
               $} & \href{https://www.github.com/\cvgithub}{\cvgithub} \\
-            }   
+            }  
+        
+          \ifthenelse{\equal{\cvsite}{}}{}{
+        	{$
+        		\begin{array}{l}
+        		\hspace{2.8mm} \huge \textnormal{\textcolor{test}{\faStackOverflow}}
+        		\end{array}
+        		$} 
+        	& \href{https://stackoverflow.com/users/2327723/ehab-qadah}{\cvsite} \\} 
             
     \end{tabular}
 
     %------------------------------------------------
-    \vspace{4mm}
+    \vspace{20mm}
     \profilesection{Skills}{4cm}
     
     {\large \textbf{Overview}}
@@ -249,14 +251,14 @@
         
         %------------------------------------------------
         
-        \vspace{3mm}
+        \vspace{20mm}
        
 	 {\large \textbf{Programming}} 
 
 		 \programming
          
-        \vspace{4mm}
-        \profilesection{Projects}{3cm} 
+        \vspace{7mm}
+        %\profilesection{Projects}{3cm} 
         
         \projects
       
