@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.11.5)  23 NOV 2017 00:23
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.11.5)  23 NOV 2017 08:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -631,14 +631,14 @@ Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic
 .tex)
 Requested font "FontAwesome" at 10.0pt
- -> 
+ -> ^^ð^^Ð;^^ËIV
 Requested font "FontAwesome/OT" at 10.0pt
  -> 
 \g__fontspec_family_FontAwesome_int=\count153
 Requested font "FontAwesome/BI/OT" at 10.0pt
  -> 
 Requested font "FontAwesome/B/OT" at 10.0pt
- -> 0in^^TjU
+ -> P^^I<^^ËIV
 Requested font "FontAwesome/I/OT" at 10.0pt
  -> 
 
@@ -1478,7 +1478,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 217.
 Here is how much of TeX's memory you used:
  33884 strings out of 493068
  678544 string characters out of 6137720
- 752431 words of memory out of 5000000
+ 752433 words of memory out of 5000000
  37356 multiletter control sequences out of 15000+600000
  4216 words of font info for 42 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
