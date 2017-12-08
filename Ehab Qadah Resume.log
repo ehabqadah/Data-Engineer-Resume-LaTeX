@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.9.12)  24 NOV 2017 15:56
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.9.12)  8 DEC 2017 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -638,7 +638,7 @@ Requested font "FontAwesome/OT" at 10.0pt
 Requested font "FontAwesome/BI/OT" at 10.0pt
  -> 
 Requested font "FontAwesome/B/OT" at 10.0pt
- -> ^^^^\^^ArU
+ -> @^^Âb^^â^^U
 Requested font "FontAwesome/I/OT" at 10.0pt
  -> 
 
@@ -1300,15 +1300,15 @@ LaTeX Info: Redefining \nameref on input line 59.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(216.2411pt, 369.60115pt, 28.45274pt)
-* v-part:(T,H,B)=(2.84544pt, 789.2791pt, 2.84544pt)
+* h-part:(L,W,R)=(213.39566pt, 383.82751pt, 17.07182pt)
+* v-part:(T,H,B)=(1.42271pt, 790.70183pt, 2.84544pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=369.60115pt
-* \textheight=789.2791pt
-* \oddsidemargin=143.97112pt
-* \evensidemargin=143.97112pt
-* \topmargin=-69.42455pt
+* \textwidth=383.82751pt
+* \textheight=790.70183pt
+* \oddsidemargin=141.12567pt
+* \evensidemargin=141.12567pt
+* \topmargin=-70.84727pt
 * \headheight=0.0pt
 * \headsep=0.0pt
 * \topskip=10.0pt
@@ -1352,11 +1352,6 @@ LaTeX Font Warning: Command \Huge invalid in math mode on input line 61.
 Requested font "FontAwesome/OT" at 24.88pt
  -> 
 
-Overfull \hbox (3.5912pt too wide) in paragraph at lines 61--61
-[]$[]$| 
- []
-
-
 LaTeX Font Warning: Command \huge invalid in math mode on input line 61.
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
@@ -1368,7 +1363,7 @@ lar.ttf
 Requested font "FontAwesome/OT" at 20.74pt
  -> 
 
-Overfull \hbox (9.40044pt too wide) in paragraph at lines 61--61
+Overfull \hbox (5.01486pt too wide) in paragraph at lines 61--61
 []$[]$| 
  []
 
@@ -1376,7 +1371,7 @@ Overfull \hbox (9.40044pt too wide) in paragraph at lines 61--61
 LaTeX Font Warning: Command \huge invalid in math mode on input line 61.
 
 
-Overfull \hbox (7.86021pt too wide) in paragraph at lines 61--61
+Overfull \hbox (5.01486pt too wide) in paragraph at lines 61--61
 []$[]$| 
  []
 
@@ -1384,7 +1379,7 @@ Overfull \hbox (7.86021pt too wide) in paragraph at lines 61--61
 LaTeX Font Warning: Command \huge invalid in math mode on input line 61.
 
 
-Overfull \hbox (7.86021pt too wide) in paragraph at lines 61--61
+Overfull \hbox (5.01486pt too wide) in paragraph at lines 61--61
 []$[]$| 
  []
 
@@ -1392,12 +1387,12 @@ Overfull \hbox (7.86021pt too wide) in paragraph at lines 61--61
 LaTeX Font Warning: Command \huge invalid in math mode on input line 61.
 
 
-Overfull \hbox (7.29117pt too wide) in paragraph at lines 61--61
+Overfull \hbox (7.97772pt too wide) in paragraph at lines 61--61
 []$[]$| 
  []
 
 
-Overfull \hbox (14.22643pt too wide) in paragraph at lines 61--61
+Overfull \hbox (34.14326pt too wide) in paragraph at lines 61--61
 [][] 
  []
 
@@ -1413,6 +1408,16 @@ Requested font "[ClearSans-Bold.ttf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;" at 8.0pt
  -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Bold
 .ttf
+
+Overfull \hbox (5.11696pt too wide) in paragraph at lines 61--61
+[]   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+
+ []
+
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
 (Font)              scaled to size 17.28pt on input line 66.
 Requested font "[ClearSans-Regular.ttf]/OT:script=latn;language=DFLT;mapping=te
@@ -1427,6 +1432,11 @@ Requested font "[ClearSans-Bold.ttf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;" at 10.0pt
  -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Bold
 .ttf
+
+Overfull \hbox (7.42967pt too wide) in alignment at lines 68--84
+[] []
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--85
 
@@ -1453,12 +1463,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--131
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 131--131
-[]\TU/ClearSans(0)/m/n/10 Designed and developed web applications using HTML, C
-SS,
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 147--147
 
  []
@@ -1466,6 +1470,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--147
 
 Underfull \hbox (badness 10000) in paragraph at lines 161--161
 
+ []
+
+
+Overfull \hbox (2.083pt too wide) in alignment at lines 95--164
+[] []
  []
 
 
@@ -1485,7 +1494,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 215.
 Here is how much of TeX's memory you used:
  33880 strings out of 493068
  678362 string characters out of 6137720
- 752435 words of memory out of 5000000
+ 752442 words of memory out of 5000000
  37354 multiletter control sequences out of 15000+600000
  4200 words of font info for 40 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191

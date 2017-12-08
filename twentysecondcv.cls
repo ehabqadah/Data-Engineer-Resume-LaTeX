@@ -176,12 +176,12 @@
 
 \newcommand{\makeprofile}{
   \begin{tikzpicture}[remember picture,overlay]
-      \node [rectangle, fill=sidecolor, anchor=north, minimum width=9cm, minimum height=\paperheight+1cm] (box) at (-5cm,0.5cm){};
+      \node [rectangle, fill=sidecolor, anchor=north, minimum width=7cm, minimum height=\paperheight+1cm] (box) at (-5cm,0.5cm){};
   \end{tikzpicture}
 
   %------------------------------------------------
 
-  \begin{textblock}{6}(0.5, 0.2)
+  \begin{textblock}{5}(0.5, 0.2)
 
     %------------------------------------------------
     
@@ -198,35 +198,29 @@
     
     \vspace{4mm}
     \renewcommand{\arraystretch}{2}
-    \begin{tabular}{p{1cm} @{\hskip 0.5cm}p{5cm}}
+    \begin{tabular}{p{.8cm} @{\hskip 0.4cm}p{5cm}}
       \ifthenelse{\equal{\cvnumberphone}{}}{}{
       		{$
               \begin{array}{l}
-              \hspace{4mm} \Huge \textnormal{\faMobile} 
+              \hspace{0mm} \Huge \textnormal{\faMobile} 
               \end{array}
               $} 
             & \cvnumberphone\\}
             
     
-      \ifthenelse{\equal{\cvmail}{}}{}{
-            {$
-              \begin{array}{l}
-              \hspace{2.5mm} \huge \textnormal{\textcolor{yt}{\faEnvelopeO}}
-              \end{array}
-              $} 
-            & \href{mailto:\cvmail}{\cvmail} \\}
+     
       
        \ifthenelse{\equal{\cvlinkedin}{}}{}{
             {$
               \begin{array}{l}
-              \hspace{3mm} \huge \textnormal{\textcolor{linkedin}{\faLinkedin}}
+              \hspace{0mm} \huge \textnormal{\textcolor{linkedin}{\faLinkedin}}
               \end{array}
               $} & \href{https://www.linkedin.com/in\cvlinkedin}{\cvlinkedin} \\
             }  
         \ifthenelse{\equal{\cvgithub}{}}{}{
             {$
               \begin{array}{l}
-              \hspace{3mm} \huge \textnormal{\faGithub}
+              \hspace{0mm} \huge \textnormal{\faGithub}
               \end{array}
               $} & \href{https://www.github.com/\cvgithub}{\cvgithub} \\
             }  
@@ -234,10 +228,18 @@
           \ifthenelse{\equal{\cvsite}{}}{}{
         	{$
         		\begin{array}{l}
-        		\hspace{2.8mm} \huge \textnormal{\textcolor{test}{\faStackOverflow}}
+        		\hspace{0mm} \huge \textnormal{\textcolor{test}{\faStackOverflow}}
         		\end{array}
         		$} 
         	& \href{https://stackoverflow.com/users/2327723/ehab-qadah}{\cvsite} \\} 
+        
+         \ifthenelse{\equal{\cvmail}{}}{}{
+        	{$
+        		\begin{array}{l}
+        		\hspace{0mm} \huge \textnormal{\textcolor{yt}{\faEnvelopeO}}
+        		\end{array}
+        		$} 
+        	& \href{mailto:\cvmail}{\cvmail} \\}
             
     \end{tabular}
 
@@ -324,12 +326,12 @@
 % }
 
 \newcommand{\twentyitem}[6]{%
-	#1&\parbox[t]{0.83\textwidth}{%
+	#1&\parbox[t]{0.87\textwidth}{%
 		\textbf{#3}% 
 		\hfill%
 		{\footnotesize#4}%
         }\\%
-    #2&\parbox[t]{0.83\textwidth}{%
+    #2&\parbox[t]{0.87\textwidth}{%
 		\ifblank{#5}{}{#5 \\}
 		#6%
 	}\\
@@ -349,7 +351,7 @@
 }
 
 \newcommand{\twentyitemshort}[2]{%
-	#1&\parbox[t]{0.83\textwidth}{%
+	#1&\parbox[t]{0.87\textwidth}{%
 		#2%
 	}\\
 }
@@ -358,7 +360,7 @@
 %	 MARGINS AND LINKS
 %----------------------------------------------------------------------------------------
 
-\RequirePackage[left=7.6cm,top=0.1cm,right=1cm,bottom=0.1cm,nohead,nofoot]{geometry}
+\RequirePackage[left=7.5cm,top=0.05cm,right=.6cm,bottom=0.1cm,nohead,nofoot]{geometry}
 
 
 \usepackage{smartdiagram}
@@ -366,13 +368,13 @@
     bubble center node font = \footnotesize,
     bubble node font = \footnotesize,
     % specifies the minimum size of the bubble center node
-    bubble center node size = 0.5cm,
+    bubble center node size = 0.4cm,
     %  specifies the minimum size of the bubbles
-    bubble node size = 0.5cm,
+    bubble node size = 0.cm,
     % specifies which is the distance among the bubble center node and the other bubbles
-    distance center/other bubbles = 0.3cm,
+    distance center/other bubbles = 0.28cm,
     % sets the distance from the text to the border of the bubble center node
-    distance text center bubble = 0.5cm,
+    distance text center bubble = 0.4cm,
     % set center bubble color
     bubble center node color = pblue,
     % define the list of colors usable in the diagram
