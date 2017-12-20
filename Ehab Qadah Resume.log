@@ -1,18 +1,52 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.9.12)  8 DEC 2017 12:01
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2017.9.12)  20 DEC 2017 12:41
+ restricted system commands enabled.
 **"Ehab Qadah Resume.tex"
-(./Ehab Qadah Resume.tex
+("./Ehab Qadah Resume.tex"
 LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+Lua module: luaotfload-main 2016/06/16 2.70003 OpenType layout system.
+Lua module: lualibs 2016-04-06 2.4 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2016-04-06 2.4 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /home/ehabqadah/.texlive2016/texmf-var/luatex-cache
+/generic)(using read cache: /var/lib/texmf/luatex-cache/generic /home/ehabqadah/
+.texlive2016/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/ehabqadah/.texlive2016/texmf-v
+ar/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2016-06-16.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2016-06-16.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.023”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/ehabqadah/.texlive2016/texmf-v
+ar/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.064 seconds
+Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (./twentysecondcv.cls
 Document Class: twentysecondcv 2015/02/28 CV class
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-)
+luaotfload | db : Font names database loaded from /home/ehabqadah/.texlive2016/t
+exmf-var/luatex-cache/generic/names/luaotfload-names.luc(compiling luc: /var/lib
+/texmf/luatex-cache/generic/fonts/otl/lmroman10-regular.luc)(load luc: /home/eha
+bqadah/.texlive2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.l
+uc))
 \c@part=\count79
 \c@section=\count80
 \c@subsection=\count81
@@ -24,14 +58,14 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2016/11/21 v6760 L3 programming layer (loader) 
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2016/11/21 v6760 L3 programming layer (code)
 L3 Module: l3bootstrap 2016/06/13 v6596 L3 Bootstrap code
+\ucharcat@table=\catcodetable5
 L3 Module: l3names 2016/10/13 v6722 L3 Namespace for primitives
 L3 Module: l3basics 2016/09/01 v6696 L3 Basic definitions
 L3 Module: l3expan 2016/08/19 v6684 L3 Argument expansion
@@ -135,31 +169,32 @@ L3 Module: l3candidates 2016/08/19 v6688 L3 Experimental additions to l3kernel
 \l__coffin_scaled_width_dim=\dimen133
 L3 Module: l3luatex 2016/08/18 v6679 L3 Experimental LuaTeX-specific functions
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
-File: l3xdvidpfmx.def 2016/08/18 v6679 L3 Experimental driver: xdvipdfmx
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2016/08/18 v6679 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count108
 \l__driver_tmp_box=\box41
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2016/11/21 v6760 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count108
-\l__xparse_m_args_int=\count109
-\l__xparse_mandatory_args_int=\count110
-\l__xparse_processor_int=\count111
-\l__xparse_v_nesting_int=\count112
+\l__xparse_current_arg_int=\count109
+\l__xparse_m_args_int=\count110
+\l__xparse_mandatory_args_int=\count111
+\l__xparse_processor_int=\count112
+\l__xparse_v_nesting_int=\count113
 )
 Package: fontspec 2017/02/12 v2.6 Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2017/02/12 2.6 Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2017/02/12 v2.6 Font selection for XeLaTeX and LuaLaTeX
 
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2017/02/12 v2.6 Font selection for XeLaTeX and LuaLaTeX
-
-\l__fontspec_script_int=\count113
-\l__fontspec_language_int=\count114
-\l__fontspec_strnum_int=\count115
-\l__fontspec_tmp_int=\count116
-\l__fontspec_em_int=\count117
-\l__fontspec_emdef_int=\count118
-\l__fontspec_strong_int=\count119
-\l__fontspec_strongdef_int=\count120
+\l__fontspec_script_int=\count114
+\l__fontspec_language_int=\count115
+\l__fontspec_strnum_int=\count116
+\l__fontspec_tmp_int=\count117
+\l__fontspec_em_int=\count118
+\l__fontspec_emdef_int=\count119
+\l__fontspec_strong_int=\count120
+\l__fontspec_strongdef_int=\count121
 \l__fontspec_tmpa_dim=\dimen134
 \l__fontspec_tmpb_dim=\dimen135
 \l__fontspec_tmpc_dim=\dimen136
@@ -175,178 +210,183 @@ LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fontspec with sig. 'O{}mO{}' on line 475.
+. Defining command \fontspec with sig. 'O{}mO{}' on line 478.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmainfont with sig. 'O{}mO{}' on line 491.
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 494.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setsansfont with sig. 'O{}mO{}' on line 507.
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 510.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmonofont with sig. 'O{}mO{}' on line 523.
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 526.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathrm with sig. 'O{}mO{}' on line 528.
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 531.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 533.
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 536.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathsf with sig. 'O{}mO{}' on line 538.
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 541.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathtt with sig. 'O{}mO{}' on line 543.
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 546.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 563.
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 566.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontface with sig. 'mO{}mO{}' on line 567.
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 570.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \defaultfontfeatures with sig. 't+om' on line 574.
+. Defining command \defaultfontfeatures with sig. 't+om' on line 577.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \addfontfeatures with sig. 'm' on line 623.
+. Defining command \addfontfeatures with sig. 'm' on line 626.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontfeature with sig. 'mm' on line 634.
+. Defining command \newfontfeature with sig. 'mm' on line 637.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newAATfeature with sig. 'mmmm' on line 642.
+. Defining command \newAATfeature with sig. 'mmmm' on line 645.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newopentypefeature with sig. 'mmm' on line 652.
+. Defining command \newopentypefeature with sig. 'mmm' on line 655.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \aliasfontfeature with sig. 'mm' on line 675.
+. Defining command \aliasfontfeature with sig. 'mm' on line 678.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 692.
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 695.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontscript with sig. 'mm' on line 696.
+. Defining command \newfontscript with sig. 'mm' on line 699.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontlanguage with sig. 'mm' on line 700.
+. Defining command \newfontlanguage with sig. 'mm' on line 703.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareFontsExtensions with sig. 'm' on line 705.
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 708.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 711.
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 714.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingCommand with sig. 'mO{}m' on line 3338.
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3062.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingAccent with sig. 'mm' on line 3344.
+. Defining command \EncodingAccent with sig. 'mm' on line 3068.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingSymbol with sig. 'mm' on line 3350.
+. Defining command \EncodingSymbol with sig. 'mm' on line 3074.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingComposite with sig. 'mmm' on line 3356.
+. Defining command \EncodingComposite with sig. 'mmm' on line 3080.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3362.
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3086.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3387.
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3111.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareSymbol with sig. 'm' on line 3393.
+. Defining command \UndeclareSymbol with sig. 'm' on line 3117.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareComposite with sig. 'mm' on line 3401.
+. Defining command \UndeclareComposite with sig. 'mm' on line 3125.
 .................................................
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)
-LaTeX Info: Redefining \itshape on input line 3586.
-LaTeX Info: Redefining \slshape on input line 3591.
-LaTeX Info: Redefining \scshape on input line 3596.
-LaTeX Info: Redefining \upshape on input line 3601.
-LaTeX Info: Redefining \em on input line 3631.
-LaTeX Info: Redefining \emph on input line 3656.
-LaTeX Info: Redefining \- on input line 3707.
+LaTeX Info: Redefining \itshape on input line 3310.
+LaTeX Info: Redefining \slshape on input line 3315.
+LaTeX Info: Redefining \scshape on input line 3320.
+LaTeX Info: Redefining \upshape on input line 3325.
+LaTeX Info: Redefining \em on input line 3355.
+LaTeX Info: Redefining \emph on input line 3380.
+(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman10-bold.luc
+)(load luc: /home/ehabqadah/.texlive2016/texmf-var/luatex-cache/generic/fonts/ot
+l/lmroman10-bold.luc)(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/o
+tl/lmroman10-italic.luc)(load luc: /home/ehabqadah/.texlive2016/texmf-var/luatex
+-cache/generic/fonts/otl/lmroman10-italic.luc)
+LaTeX Info: Redefining \- on input line 3431.
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \oldstylenums with sig. 'm' on line 3802.
+. Redefining command \oldstylenums with sig. 'm' on line 3526.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \liningnums with sig. 'm' on line 3806.
+. Defining command \liningnums with sig. 'm' on line 3530.
 .................................................
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/clearsans/ClearSans.sty
-Package: ClearSans 2014/03/16 (Bob Tennent) Supports Clear-Sans fonts for all L
-aTeX engines.
+Package: ClearSans 2014/03/16 (Bob Tennent) Supports Clear-Sans fonts for all La
+TeX engines.
 
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+Package ifluatex Info: LuaTeX detected.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
@@ -357,7 +397,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@tempa@toks=\toks15
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count121
+\XKV@depth=\count122
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
@@ -403,7 +443,6 @@ Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
 Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
 Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
 Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
 Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
 Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
 Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
@@ -441,28 +480,63 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)
-Requested font "[ClearSans-Regular.ttf]/OT" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Regu
-lar.ttf
-\g__fontspec_family_ClearSans_int=\count122
-Requested font "[ClearSans-Bold.ttf]/OT" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Bold
-.ttf
-Requested font "[ClearSans-Italic.ttf]/OT" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Ital
-ic.ttf
-Requested font "[ClearSans-BoldItalic.ttf]/OT" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Bold
-Italic.ttf
+)(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otl/clearsans-regular
+.luc)(load luc: /home/ehabqadah/.texlive2016/texmf-var/luatex-cache/generic/font
+s/otl/clearsans-regular.luc)
+\g__fontspec_family_ClearSans_int=\count123
+luaotfload | aux : font no 18 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 18(compiling luc: /var/lib/texmf/luatex-cache
+/generic/fonts/otl/clearsans-bold.luc)(load luc: /home/ehabqadah/.texlive2016/te
+xmf-var/luatex-cache/generic/fonts/otl/clearsans-bold.luc)
+luaotfload | aux : font no 19 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 19(compiling luc: /var/lib/texmf/luatex-cache
+/generic/fonts/otl/clearsans-italic.luc)(load luc: /home/ehabqadah/.texlive2016/
+texmf-var/luatex-cache/generic/fonts/otl/clearsans-italic.luc)
+luaotfload | aux : font no 20 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 20(compiling luc: /var/lib/texmf/luatex-cache
+/generic/fonts/otl/clearsans-bolditalic.luc)(load luc: /home/ehabqadah/.texlive2
+016/texmf-var/luatex-cache/generic/fonts/otl/clearsans-bolditalic.luc)
+luaotfload | aux : font no 21 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 21
 LaTeX Info: Redefining \sffamily on input line 58.
-Requested font "[ClearSans-Light.ttf]/OT" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Ligh
-t.ttf
-Requested font "[ClearSans-Thin.ttf]/OT" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Thin
-.ttf
-)
+luaotfload | aux : font no 18 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 18
+luaotfload | aux : font no 19 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 19
+luaotfload | aux : font no 20 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 20
+luaotfload | aux : font no 21 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 21(compiling luc: /var/lib/texmf/luatex-cache
+/generic/fonts/otl/clearsans-light.luc)(load luc: /home/ehabqadah/.texlive2016/t
+exmf-var/luatex-cache/generic/fonts/otl/clearsans-light.luc)
+luaotfload | aux : font no 22 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 22
+luaotfload | aux : font no 19 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 19
+luaotfload | aux : font no 21 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 21(compiling luc: /var/lib/texmf/luatex-cache
+/generic/fonts/otl/clearsans-thin.luc)(load luc: /home/ehabqadah/.texlive2016/te
+xmf-var/luatex-cache/generic/fonts/otl/clearsans-thin.luc)
+luaotfload | aux : font no 23 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 23
+luaotfload | aux : font no 19 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 19
+luaotfload | aux : font no 21 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 21)
 (/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
 Package: pstricks 2015/11/14 v0.62 LaTeX wrapper for `PSTricks' (RN,HV)
 
@@ -472,13 +546,21 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Driver file: luatex.def on input line 225.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2016/07/11 v4.10 LaTeX color/graphics driver for XeTeX (L3/RRM/
-JK)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2017/01/12 v0.01h Graphics/Color for luaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count124
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -493,15 +575,15 @@ File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
 `pst-fp' v0.05, 2010/01/17 (hv)
-\pstFP@xs=\count123
-\pstFP@xia=\count124
-\pstFP@xib=\count125
-\pstFP@xfa=\count126
-\pstFP@xfb=\count127
-\pstFP@rega=\count128
-\pstFP@regb=\count129
-\pstFP@regs=\count130
-\pstFP@times=\count131
+\pstFP@xs=\count125
+\pstFP@xia=\count126
+\pstFP@xib=\count127
+\pstFP@xfa=\count128
+\pstFP@xfb=\count129
+\pstFP@rega=\count130
+\pstFP@regb=\count131
+\pstFP@regs=\count132
+\pstFP@times=\count133
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks16
@@ -528,16 +610,16 @@ ex
 \pgf@ya=\dimen144
 \pgf@yb=\dimen145
 \pgf@yc=\dimen146
-\c@pgf@counta=\count132
-\c@pgf@countb=\count133
-\c@pgf@countc=\count134
-\c@pgf@countd=\count135
-\pgfutil@tempcnta=\count136
-\pgfutil@tempcntb=\count137
+\c@pgf@counta=\count134
+\c@pgf@countb=\count135
+\c@pgf@countc=\count136
+\c@pgf@countd=\count137
+\pgfutil@tempcnta=\count138
+\pgfutil@tempcntb=\count139
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen147
-\pgfmath@count=\count138
+\pgfmath@count=\count140
 \pgfmath@box=\box42
 \pgfmath@toks=\toks20
 \pgfmath@stack@operand=\toks21
@@ -561,14 +643,14 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count139
+\c@pgfmathroundto@lastzeros=\count141
 ))
 \pgffor@iter=\dimen148
 \pgffor@skip=\dimen149
 \pgffor@stack=\toks23
 \pgffor@toks=\toks24
 )
-\psLoopIndex=\count140
+\psLoopIndex=\count142
 
 `PSTricks' v2.71  <2016/12/23> (tvz)
 \pst@dima=\dimen150
@@ -584,24 +666,23 @@ thmetics.code.tex)))
 \pst@hbox=\box43
 \pst@ibox=\box44
 \pst@boxg=\box45
-\pst@cnta=\count141
-\pst@cntb=\count142
-\pst@cntc=\count143
-\pst@cntd=\count144
-\pst@cntg=\count145
-\pst@cnth=\count146
-\pst@cntm=\count147
-\pst@cntn=\count148
-\pst@cnto=\count149
-\pst@cntp=\count150
-\@zero=\count151
+\pst@cnta=\count143
+\pst@cntb=\count144
+\pst@cntc=\count145
+\pst@cntd=\count146
+\pst@cntg=\count147
+\pst@cnth=\count148
+\pst@cntm=\count149
+\pst@cntn=\count150
+\pst@cnto=\count151
+\pst@cntp=\count152
+\@zero=\count153
 \pst@toks=\toks25
-(/usr/share/texlive/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
-(/usr/share/texlive/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg))
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
 \psunit=\dimen160
 \psxunit=\dimen161
 \psyunit=\dimen162
-\pst@C@@rType=\count152
+\pst@C@@rType=\count154
 \pslinewidth=\dimen163
 \psk@startLW=\dimen164
 \psk@endLW=\dimen165
@@ -616,13 +697,10 @@ thmetics.code.tex)))
 \sh@wgridXunit=\dimen172
 \sh@wgridYunit=\dimen173
 \pst@shift=\dimen174
-
-(/usr/share/texlive/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
-(/usr/share/texlive/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg
-Using PSTricks configuration for XeTeX+xdvipdfmx
-)))
+)
 File: pstricks.tex 2016/12/23 v2.71 `PSTricks' (tvz,hv)
- (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex)
 File: pst-fp.tex 2016/12/23 v2.71 `PST-fp' (hv)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesome.sty
@@ -630,18 +708,16 @@ Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic
 .tex)
-Requested font "FontAwesome" at 10.0pt
- -> 
-Requested font "FontAwesome/OT" at 10.0pt
- -> 
-\g__fontspec_family_FontAwesome_int=\count153
-Requested font "FontAwesome/BI/OT" at 10.0pt
- -> 
-Requested font "FontAwesome/B/OT" at 10.0pt
- -> @^^�b^^�^^U
-Requested font "FontAwesome/I/OT" at 10.0pt
- -> 
-
+luaotfload | cache : Lookup cache loaded from /home/ehabqadah/.texlive2016/texmf
+-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(compiling luc: /var
+/lib/texmf/luatex-cache/generic/fonts/otl/fontawesome.luc)(load luc: /home/ehabq
+adah/.texlive2016/texmf-var/luatex-cache/generic/fonts/otl/fontawesome.luc)
+luaotfload | aux : font no 24 (<unknown>) defines no feature for script latn
+luaotfload | aux : no font with id 24
+\g__fontspec_family_FontAwesome_int=\count155
+luaotfload | aux : font no 24 (<unknown>) does not define feature smcp for scrip
+t  with language 
+luaotfload | aux : no font with id 24
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-xeluate
 x.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -675,7 +751,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 99.
+Package graphics Info: Driver file: luatex.def on input line 99.
 )
 \Gin@req@height=\dimen177
 \Gin@req@width=\dimen178
@@ -695,10 +771,10 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 \pgf@yc=\dimen186
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count154
-\c@pgf@countb=\count155
-\c@pgf@countc=\count156
-\c@pgf@countd=\count157
+\c@pgf@counta=\count156
+\c@pgf@countb=\count157
+\c@pgf@countc=\count158
+\c@pgf@countd=\count159
 \t@pgf@toka=\toks29
 \t@pgf@tokb=\toks30
 \t@pgf@tokc=\toks31
@@ -706,25 +782,20 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-xetex.def
+Driver file for pgf: pgfsys-luatex.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
-File: pgfsys-xetex.def 2014/07/09  (rcs-revision 1.11)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
-File: pgfsys-dvipdfmx.def 2014/07/09  (rcs-revision 1.14)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2014/10/11  (rcs-revision 1.35)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
 f
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
-)
-\pgfsys@objnum=\count158
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count159
-\pgfsyssoftpath@bigbuffer@items=\count160
+\pgfsyssoftpath@smallbuffer@items=\count160
+\pgfsyssoftpath@bigbuffer@items=\count161
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -770,7 +841,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box47
 \pgf@hbox=\box48
 \pgf@layerbox@main=\box49
-\pgf@picture@serial@count=\count161
+\pgf@picture@serial@count=\count162
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -803,7 +874,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen266
-\pgf@sys@shading@range@num=\count162
+\pgf@sys@shading@range@num=\count163
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -860,7 +931,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count163
+\pgf@plot@mark@count=\count164
 \pgfplotmarksize=\dimen271
 )
 \tikz@lastx=\dimen272
@@ -873,18 +944,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box53
 \tikz@tempbox=\box54
 \tikz@tempbox@bg=\box55
-\tikztreelevel=\count164
-\tikznumberofchildren=\count165
-\tikznumberofcurrentchild=\count166
-\tikz@fig@count=\count167
+\tikztreelevel=\count165
+\tikznumberofchildren=\count166
+\tikznumberofcurrentchild=\count167
+\tikz@fig@count=\count168
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count168
-\pgfmatrixcurrentcolumn=\count169
-\pgf@matrix@numberofcolumns=\count170
+\pgfmatrixcurrentrow=\count169
+\pgfmatrixcurrentcolumn=\count170
+\pgf@matrix@numberofcolumns=\count171
 )
-\tikz@expandcount=\count171
+\tikz@expandcount=\count172
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -930,7 +1001,7 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count172
+\etb@tempcnta=\count173
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
@@ -951,7 +1022,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen286
 \enit@toks=\toks36
 \enit@inbox=\box58
-\enitdp@description=\count173
+\enitdp@description=\count174
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
@@ -959,34 +1030,31 @@ Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO)
+
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks37
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -1006,13 +1074,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen287
-\Hy@linkcounter=\count174
-\Hy@pagecounter=\count175
+\Hy@linkcounter=\count175
+\Hy@pagecounter=\count176
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count176
+\Hy@SavedSpaceFactor=\count177
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1024,7 +1092,7 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count177
+\c@Hy@tempcnt=\count178
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
@@ -1032,9 +1100,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
 \XeTeXLinkMargin=\dimen288
-Requested font "pzdr" at 0.00002pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
-\Fld@menulength=\count178
+\Fld@menulength=\count179
 \Field@Width=\dimen289
 \Fld@charsize=\dimen290
 Package hyperref Info: Hyper figures OFF on input line 6342.
@@ -1046,56 +1112,37 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count179
-\c@Item=\count180
-\c@Hfootnote=\count181
+\Hy@abspage=\count180
+\c@Item=\count181
+\c@Hfootnote=\count182
 )
 
-Package hyperref Message: Driver (autodetected): hxetex.
+Package hyperref Message: Driver (autodetected): hluatex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2016/06/24 v6.83q Hyperref driver for XeTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2016/06/24 v6.83q Hyperref: PDF Unicode definition (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box59
-\c@Hy@AnnotLevel=\count182
-\HyField@AnnotCount=\count183
-\Fld@listcount=\count184
-\c@bookmark@seq@number=\count185
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2016/06/24 v6.83q Hyperref driver for luaTeX
+\Fld@listcount=\count183
+\c@bookmark@seq@number=\count184
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
-(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
-
-(rerunfilecheck)             Therefore file contents cannot be checked efficien
-tly
-(rerunfilecheck)             and the loading of the package is aborted.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+2.
 )
 \Hy@SectionHShift=\skip64
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-
-)
 Package hyperref Info: Option `colorlinks' set `false' on input line 39.
-Requested font "[fonts/segoeuib.ttf]/OT" at 10.0pt
- -> ./fonts/segoeuib.ttf
-\g__fontspec_family_segoeuib.ttf_int=\count186
+(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otl/segoeuib.luc)(load
+ luc: /home/ehabqadah/.texlive2016/texmf-var/luatex-cache/generic/fonts/otl/sego
+euib.luc)
+\g__fontspec_family_segoeuib.ttf_int=\count185
 \imagewidth=\skip65
 \imagescale=\skip66
-
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count187
-\Gm@cntv=\count188
-\c@Gm@tempcnt=\count189
+\Gm@cnth=\count186
+\Gm@cntv=\count187
+\c@Gm@tempcnt=\count188
 \Gm@bindingoffset=\dimen291
 \Gm@wd@mp=\dimen292
 \Gm@odd@mp=\dimen293
@@ -1104,25 +1151,25 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen296
 \Gm@layouthoffset=\dimen297
 \Gm@layoutvoffset=\dimen298
-\Gm@dimlist=\toks37
+\Gm@dimlist=\toks38
 )
 (/usr/share/texlive/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty
-Package: smartdiagram 2016/12/23 v0.3b Automatic creation of smart diagrams fro
-m lists of items.
+Package: smartdiagram 2016/12/23 v0.3b Automatic creation of smart diagrams from
+ lists of items.
 
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write4
-\integerpart=\count190
-\decimalpart=\count191
+\integerpart=\count189
+\decimalpart=\count190
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
-\pgf@layerbox@background=\box60
-\pgf@layerboxsaved@background=\box61
+\pgf@layerbox@background=\box59
+\pgf@layerboxsaved@background=\box60
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarycalc.code.tex
@@ -1156,8 +1203,8 @@ File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 s.symbols.code.tex
 File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
 ))
-\pgf@layerbox@smart diagram arrow back=\box62
-\pgf@layerboxsaved@smart diagram arrow back=\box63
+\pgf@layerbox@smart diagram arrow back=\box61
+\pgf@layerboxsaved@smart diagram arrow back=\box62
 
 (/usr/share/texlive/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.d
 efinitions.code.tex
@@ -1181,8 +1228,8 @@ ommands.code.tex
 . 
 . Defining command \smartdiagramanimated with sig. 'r[] m' on line 487.
 .................................................
-))) (./Ehab Qadah Resume.aux)
-\openout1 = `"Ehab Qadah Resume.aux"'.
+))) ("./Ehab Qadah Resume.aux")
+\openout1 = Ehab Qadah Resume.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
@@ -1207,14 +1254,8 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    ... okay on input line 59.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 59.
-Requested font "[ClearSans-Regular.ttf]/OT:script=latn;language=DFLT;mapping=te
-x-text;" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Regu
-lar.ttf
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
 (Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 59.
@@ -1265,11 +1306,41 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/ClearSans(0)/bx/n on input line 59
-.
+(Font)                  OT1/cmss/bx/n --> TU/ClearSans(0)/bx/n on input line 59.
+
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 59.
 
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count191
+\scratchdimen=\dimen299
+\scratchbox=\box63
+\nofMPsegments=\count192
+\nofMParguments=\count193
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count194
+\MPscratchDim=\dimen300
+\MPnumerator=\count195
+\makeMPintoPDFobject=\count196
+\everyMPtoPDFconversion=\toks40
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
 ABD: EveryShipout initializing macros ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 59.
 \AtBeginShipoutBox=\box64
@@ -1281,21 +1352,21 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count192
+\c@section@level=\count197
 )
 LaTeX Info: Redefining \ref on input line 59.
 LaTeX Info: Redefining \pageref on input line 59.
 LaTeX Info: Redefining \nameref on input line 59.
 
-(./Ehab Qadah Resume.out) (./Ehab Qadah Resume.out)
+("./Ehab Qadah Resume.out") ("./Ehab Qadah Resume.out")
 \@outlinefile=\write5
-\openout5 = `"Ehab Qadah Resume.out"'.
 
+\openout5 = Ehab Qadah Resume.out
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1328,40 +1399,26 @@ LaTeX Info: Redefining \nameref on input line 59.
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
 (Font)              scaled to size 24.88pt on input line 61.
-Requested font "[ClearSans-Regular.ttf]/OT:script=latn;language=DFLT;mapping=te
-x-text;" at 24.88pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Regu
-lar.ttf
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 61.
-Requested font "[ClearSans-Regular.ttf]/OT:script=latn;language=DFLT;mapping=te
-x-text;" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Regu
-lar.ttf
-Requested font "[lmroman7-regular]:mapping=tex-text;" at 7.0pt
- -> /usr/share/texmf/fonts/opentype/public/lm/lmroman7-regular.otf
-Requested font "[lmroman5-regular]:mapping=tex-text;" at 5.0pt
- -> /usr/share/texmf/fonts/opentype/public/lm/lmroman5-regular.otf
+(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman7-regular.l
+uc)(load luc: /home/ehabqadah/.texlive2016/texmf-var/luatex-cache/generic/fonts/
+otl/lmroman7-regular.luc)(compiling luc: /var/lib/texmf/luatex-cache/generic/fon
+ts/otl/lmroman5-regular.luc)(load luc: /home/ehabqadah/.texlive2016/texmf-var/lu
+atex-cache/generic/fonts/otl/lmroman5-regular.luc)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 61.
 
+
 LaTeX Font Warning: Command \Huge invalid in math mode on input line 61.
 
-Requested font "FontAwesome/OT" at 24.88pt
- -> 
 
 LaTeX Font Warning: Command \huge invalid in math mode on input line 61.
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 61.
-Requested font "[ClearSans-Regular.ttf]/OT:script=latn;language=DFLT;mapping=te
-x-text;" at 20.74pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Regu
-lar.ttf
-Requested font "FontAwesome/OT" at 20.74pt
- -> 
 
 Overfull \hbox (5.01486pt too wide) in paragraph at lines 61--61
 []$[]$| 
@@ -1398,18 +1455,10 @@ Overfull \hbox (34.14326pt too wide) in paragraph at lines 61--61
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 61.
-Requested font "[ClearSans-Regular.ttf]/OT:script=latn;language=DFLT;mapping=te
-x-text;" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Regu
-lar.ttf
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/n' will be
 (Font)              scaled to size 8.0pt on input line 61.
-Requested font "[ClearSans-Bold.ttf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Bold
-.ttf
 
-Overfull \hbox (5.11696pt too wide) in paragraph at lines 61--61
+Overfull \hbox (5.11691pt too wide) in paragraph at lines 61--61
 []   []
  []
 
@@ -1420,18 +1469,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
 (Font)              scaled to size 17.28pt on input line 66.
-Requested font "[ClearSans-Regular.ttf]/OT:script=latn;language=DFLT;mapping=te
-x-text;" at 17.28pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Regu
-lar.ttf
-Requested font "[fonts/segoeuib.ttf]/OT:script=latn;language=DFLT;" at 17.28pt
- -> ./fonts/segoeuib.ttf
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/n' will be
 (Font)              scaled to size 10.0pt on input line 75.
-Requested font "[ClearSans-Bold.ttf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Bold
-.ttf
 
 Overfull \hbox (7.42967pt too wide) in alignment at lines 68--84
 [] []
@@ -1455,8 +1494,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--117
 
  []
 
-Missing character: There is no ​ in font [ClearSans-Regular.ttf]/OT:script=latn
-;language=DFLT;mapping=tex-text;!
 
 Underfull \hbox (badness 10000) in paragraph at lines 131--131
 
@@ -1483,21 +1520,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--165
  []
 
 [1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
 
+
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+Missing character: There is no ​ (U+200B) in font [ClearSans-Regular.ttf]:mode
+=node;script=latn;language=DFLT;+tlig;!
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
- (./Ehab Qadah Resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 215.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 215.
- ) 
-Here is how much of TeX's memory you used:
- 33880 strings out of 493068
- 678362 string characters out of 6137720
- 752442 words of memory out of 5000000
- 37354 multiletter control sequences out of 15000+600000
- 4200 words of font info for 40 fonts, out of 8000000 for 9000
- 1347 hyphenation exceptions out of 8191
- 61i,17n,75p,10397b,766s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Ehab Qadah Resume.pdf (1 page).
+("./Ehab Qadah Resume.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
+Package rerunfilecheck Info: File `"Ehab Qadah Resume".out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 31534 strings out of 494577
+ 100000,794899 words of node,token memory allocated
+ 1602 words of node memory still in use:
+   22 hlist, 1 vlist, 10 rule, 55 glue, 101 attribute, 54 glue_spec, 101 attribu
+te_list, 1 write, 39 pdf_literal, 18 pdf_colorstack nodes
+   avail lists: 2:1630,3:446,4:57,5:236,6:2138,7:1135,8:61,9:399,10:4,11:193
+ 34445 multiletter control sequences out of 65536+600000
+ 48 fonts using 5855863 bytes
+ 61i,17n,75p,808b,781s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesome/FontAwesome.otf
+></usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Bold.tt
+f></usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Regula
+r.ttf><./fonts/segoeuib.ttf>
+Output written on Ehab Qadah Resume.pdf (1 page, 46035 bytes).
+
+PDF statistics: 83 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 131072)
+ 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+
